@@ -1,0 +1,32 @@
+#app {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background: linear-gradient(90deg, var(--dark_orange-color), var(--color-400));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container {
+  background-color: var(--color-100);
+  border: 2px solid var(--color-300);
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 0 8px 35px 5px var(--box-shadow-color);
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh; /* Ограничиваем высоту контейнера до 90% высоты экрана */
+}
+
+.task-list {
+  border-radius: 8px;
+  border: none;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  overflow-y: auto; /* Включаем вертикальную прокрутку */
+  flex-grow: 1; /* Список занимает оставшееся пространство */
+  max-height: calc(90vh - 120px); /* Ограничиваем высоту с учетом header и footer */
+}

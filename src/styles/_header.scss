@@ -1,0 +1,11 @@
+.header_container {
+  background: var(--color-300);
+  padding: 11px 200px;
+  width: 100%;
+
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--font-color);
+  }
+}
