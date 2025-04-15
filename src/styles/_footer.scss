@@ -30,3 +30,37 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 8px 20px;
+
+    span {
+      font-size: 16px;
+    }
+
+    .tabs button {
+      font-size: 14px;
+      padding: 2px 8px;
+      margin: 0 3px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    padding: 6px 15px;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    span {
+      font-size: 12px;
+    }
+
+    .tabs button {
+      font-size: 13px;
+      padding: 2px 6px;
+      margin: 0 2px;
+    }
+  }
+}

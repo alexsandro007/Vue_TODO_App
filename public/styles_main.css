@@ -1,0 +1,16 @@
+#app::before {
+     content: '';
+     display: block;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     right: 10%;
+     height: 90%;
+     /* max-height: 512px; */
+     aspect-ratio: 1;
+     background-image: url('./background-img.svg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     z-index: 0;
+}
